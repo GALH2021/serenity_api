@@ -67,7 +67,7 @@ Resource.create([{
     postScore: 0,
     source: 'https://soundcloud.com/caregiversos/caregiver-choices-and-lessons-learned-from-covid-19-w-michael-splaine',
     desc: 'Caregiver choices and Lessons Learned from COVID-19 w/ Michael Splaine',
-    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg'
+    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1030353940&auto_play=false&show_artwork=true&visual=true&origin=twitter',
 }, {
     postType: 'Podcast',
@@ -75,7 +75,7 @@ Resource.create([{
     postScore: 0,
     source: 'https://soundcloud.com/caregiversos/how-to-combat-compassion-fatigue-w-stephen-chee',
     desc: 'How to combat Compassion Fatigue w/ Stephen Chee',
-    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg'
+    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F935527348&auto_play=false&show_artwork=true&visual=true&origin=twitter',
 }, {
     postType: 'Podcast',
@@ -83,7 +83,7 @@ Resource.create([{
     postScore: 0,
     source: 'https://soundcloud.com/betterlisten/caregiver-care-with-emmett-miller-preview',
     desc: 'Caregiver Support and Stress Management with Emmett Miller - Preview',
-    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg'
+    imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F277998038&auto_play=false&show_artwork=true&visual=true&origin=twitter',
 }, {
     postType: 'Podcast',
