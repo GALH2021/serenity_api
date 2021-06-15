@@ -102,4 +102,4 @@ Resource.create([{
     imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F264773243&auto_play=false&show_artwork=true&visual=true&origin=twitter'
 }
-}])
+])
