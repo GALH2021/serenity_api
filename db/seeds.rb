@@ -36,7 +36,7 @@ Resource.create([{
     source: 'https://soundcloud.com/caregiversos/making-death-in-hospice-care-a-peaceful-ritual-w-beth-cavenaugh',
     desc: 'Making death in hopsice care a peaceful ritual w/ Beth Cavenaugh',
     imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
-    audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1030353298&auto_play=false&show_artwork=true&visual=true&origin=twitter';
+    audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1030353298&auto_play=false&show_artwork=true&visual=true&origin=twitter',
 }, {
     postType: 'Podcast',
     content: '',
@@ -102,4 +102,4 @@ Resource.create([{
     imgUrl: 'https://sm.pcmag.com/pcmag_uk/review/s/soundcloud/soundcloud_m11c.jpg',
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F264773243&auto_play=false&show_artwork=true&visual=true&origin=twitter'
 }
-])
+}])
