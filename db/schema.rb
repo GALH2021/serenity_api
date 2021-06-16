@@ -10,9 +10,45 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2021_06_15_151740) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "personals", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "resource_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["resource_id"], name: "index_personals_on_resource_id"
+    t.index ["user_id"], name: "index_personals_on_user_id"
+  end
+
+  create_table "resources", force: :cascade do |t|
+    t.string "postType"
+    t.string "topic"
+    t.integer "postScore"
+    t.string "content"
+    t.string "source"
+    t.string "desc"
+    t.string "imgUrl"
+    t.string "audioUrl"
+    t.string "author"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "firebaseId"
+    t.string "name"
+    t.integer "userScore"
+    t.string "careType"
+    t.string "posts", default: [], array: true
+    t.integer "prevScores", default: [], array: true
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  add_foreign_key "personals", "resources"
+  add_foreign_key "personals", "users"
 end

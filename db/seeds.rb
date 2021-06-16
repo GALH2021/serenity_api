@@ -61,7 +61,7 @@ Resource.create([{
     audioUrl: ''
 }, {
     postType: 'eBook',
-    content: `"This practical, easy-to-use manual is for all of you caregivers who don't have the time to fix yourselves a meal or take a shower, let alone read a book. You who have so many health, legal, and daily care questions that you are utterly overwhelmed. You need help, but don't know where to get it or how to pay for it. Like you, I was in a constant state of high anxiety when my 90-year-old father was diagnosed with bone cancer."`,
+    content: "This practical, easy-to-use manual is for all of you caregivers who don't have the time to fix yourselves a meal or take a shower, let alone read a book. You who have so many health, legal, and daily care questions that you are utterly overwhelmed. You need help, but don't know where to get it or how to pay for it..",
     topic: 'Loss',
     postScore: 0,
     source: 'https://www.amazon.com/Living-Dying-Complete-Guide-Caregivers-ebook/dp/B0763F849Z',
