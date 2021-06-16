@@ -61,7 +61,7 @@ Resource.create([{
     audioUrl: ''
 }, {
     postType: 'eBook',
-    content: `"This practical, easy-to-use manual is for all of you caregivers who don't have the time to fix yourselves a meal or take a shower, let alone read a book. You who have so many health, legal, and daily care questions that you are utterly overwhelmed. You need help, but don't know where to get it or how to pay for it. Like you, I was in a constant state of high anxiety when my 90-year-old father was diagnosed with bone cancer. Unlike you, I had my friend Katie Ortlip to guide me through the final months, days, weeks, and minutes of my dad's life."`,
+    content: `"This practical, easy-to-use manual is for all of you caregivers who don't have the time to fix yourselves a meal or take a shower, let alone read a book. You who have so many health, legal, and daily care questions that you are utterly overwhelmed. You need help, but don't know where to get it or how to pay for it. Like you, I was in a constant state of high anxiety when my 90-year-old father was diagnosed with bone cancer."`,
     topic: 'Loss',
     postScore: 0,
     source: 'https://www.amazon.com/Living-Dying-Complete-Guide-Caregivers-ebook/dp/B0763F849Z',
@@ -70,7 +70,7 @@ Resource.create([{
     audioUrl: ''
 }, {
     postType: 'Podcast',
-    content: '',
+    content: 'Michael Splaine, owner and principal in Splaine Consulting, talks with Caregiver SOS on Air cohosts expert on aging Carol Zernial and veteran broadcaster and attorney Ron Aaron about caregiver choices and lessons learned from COVID-19.',
     topic: 'Advice',
     postScore: 0,
     source: 'https://soundcloud.com/caregiversos/caregiver-choices-and-lessons-learned-from-covid-19-w-michael-splaine',
@@ -79,7 +79,7 @@ Resource.create([{
     audioUrl: 'https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1030353940&auto_play=false&show_artwork=true&visual=true&origin=twitter',
 }, {
     postType: 'Podcast',
-    content: 'Michael Splaine, owner and principal in Splaine Consulting, talks with Caregiver SOS on Air cohosts expert on aging Carol Zernial and veteran broadcaster and attorney Ron Aaron about caregiver choices and lessons learned from COVID-19.',
+    content: 'Stephen Chee, Director of Wellness at Lifetime Wellness, Dallas, Texas discusses How to Combat Compassion Fatigue with Caregiver SOS on Air cohosts nationally known gerontologist and Executive Director, WellMed Charitable Foundation and Past Chair of the Board of Directors for the National Council on the Aging Carol Zernial and veteran broadcaster and attorney Ron Aaron',
     topic: 'Selfcare',
     postScore: 0,
     source: 'https://soundcloud.com/caregiversos/how-to-combat-compassion-fatigue-w-stephen-chee',
